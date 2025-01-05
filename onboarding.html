@@ -1,72 +1,101 @@
 <html>
-   <head>
-      <meta name="viewport" content="width=device-width, height=device-height">
-      <title>
-         Onboarding
-      </title>
-      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-      <link rel="manifest" href="/site.webmanifest">
-      <!-- <meta name="robots" content="noindex">-->
-      <meta property="og:title" content="Manchester Gents Onboarding" />
-      <meta property="og:description" content="We are excited to have you join us for our upcoming social events. To ensure a smooth and enjoyable experience, we kindly ask that you review our terms and conditions and provide your consent for any photographs taken during the events." />
-      <meta name="twitter:card" content="summary_large_image">
-      <meta property="og:image" content="https://i.ibb.co/MRJq1c2/akbt2yaklmdsuybydnqe.png" />
-      <meta property="og:url" content="https://manchestergents.com/onboarding" />
-      <meta property="og:type" content="article">
-   </head>
-   <body style="width: 100%;-webkit-overflow-scrolling:touch;overflow:auto; ">
-      <iframe 
-         style="display:block;position:absolute;top:0;left:0;margin:0;padding:0;width:100%;height:100%;border:0;"
-         id="frameboxlive" 
-         src="">
-      allowFullScreen="allowfullscreen" </iframe>
-      <script>
-         var mainUrl = "https://tally.so/r/3N8RKN"; // the-page-that-you-want-to-embed
-         var urlParams = new URLSearchParams(window.location.search);
-         urlParams = urlParams.toString();
-         var ref = document.URL;
-         var clang = 'clang=' + document.location.pathname.split('/')[1];
-         var iframeUrl = mainUrl + '?&' + urlParams;
-         document.getElementsByTagName("iframe")[0].src = iframeUrl ;
-      </script>
-      <script type="text/javascript">function isIOS() {
-         return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-         }
-         function cloneDeviceMotionEvent(e) {
-         return {
-             acceleration: {
-                 x: e.acceleration.x,
-                 y: e.acceleration.y,
-                 z: e.acceleration.z,
-             },
-             accelerationIncludingGravity: {
-                 x: e.accelerationIncludingGravity.x,
-                 y: e.accelerationIncludingGravity.y,
-                 z: e.accelerationIncludingGravity.z,
-             },
-             rotationRate: {
-                 alpha: e.rotationRate.alpha,
-                 beta: e.rotationRate.beta,
-                 gamma: e.rotationRate.gamma,
-             },
-             interval: e.interval,
-             timeStamp: e.timeStamp
-         };
-         }
-         var iframe = document.getElementById('tree')
-         if (isIOS()) {
-         window.addEventListener('devicemotion', function (e) {
-             iframe.contentWindow.postMessage({
-                 type: 'devicemotion',
-                 deviceMotionEvent: cloneDeviceMotionEvent(e),
-             }, '*');
-         });
-         }
-      </script>
-      <!-- 100% privacy-first analytics -->
-<script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
-   </body>
+  <head>
+    <meta name="viewport" content="width=device-width, height=device-height" />
+    <title>Onboarding</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <!-- <meta name="robots" content="noindex">-->
+    <meta property="og:title" content="Manchester Gents Onboarding" />
+    <meta
+      property="og:description"
+      content="We are excited to have you join us for our upcoming social events. To ensure a smooth and enjoyable experience, we kindly ask that you review our terms and conditions and provide your consent for any photographs taken during the events."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      property="og:image"
+      content="https://i.ibb.co/MRJq1c2/akbt2yaklmdsuybydnqe.png"
+    />
+    <meta property="og:url" content="https://manchestergents.com/onboarding" />
+    <meta property="og:type" content="article" />
+  </head>
+  <body style="width: 100%; -webkit-overflow-scrolling: touch; overflow: auto">
+    <iframe
+      style="
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      "
+      id="frameboxlive"
+      src=""
+    >
+      allowFullScreen="allowfullscreen"
+    </iframe>
+    <script>
+      var mainUrl = "https://tally.so/r/3N8RKN"; // the-page-that-you-want-to-embed
+      var urlParams = new URLSearchParams(window.location.search);
+      urlParams = urlParams.toString();
+      var ref = document.URL;
+      var clang = "clang=" + document.location.pathname.split("/")[1];
+      var iframeUrl = mainUrl + "?&" + urlParams;
+      document.getElementsByTagName("iframe")[0].src = iframeUrl;
+    </script>
+    <script type="text/javascript">
+      function isIOS() {
+        return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+      }
+      function cloneDeviceMotionEvent(e) {
+        return {
+          acceleration: {
+            x: e.acceleration.x,
+            y: e.acceleration.y,
+            z: e.acceleration.z,
+          },
+          accelerationIncludingGravity: {
+            x: e.accelerationIncludingGravity.x,
+            y: e.accelerationIncludingGravity.y,
+            z: e.accelerationIncludingGravity.z,
+          },
+          rotationRate: {
+            alpha: e.rotationRate.alpha,
+            beta: e.rotationRate.beta,
+            gamma: e.rotationRate.gamma,
+          },
+          interval: e.interval,
+          timeStamp: e.timeStamp,
+        };
+      }
+      var iframe = document.getElementById("tree");
+      if (isIOS()) {
+        window.addEventListener("devicemotion", function (e) {
+          iframe.contentWindow.postMessage(
+            {
+              type: "devicemotion",
+              deviceMotionEvent: cloneDeviceMotionEvent(e),
+            },
+            "*"
+          );
+        });
+      }
+    </script>
+    <!-- 100% privacy-first analytics -->
+    <script
+      data-collect-dnt="true"
+      async
+      src="https://scripts.simpleanalyticscdn.com/latest.js"
+    ></script>
+    <noscript
+      ><img
+        src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true"
+        alt=""
+        referrerpolicy="no-referrer-when-downgrade"
+    /></noscript>
+  </body>
 </html>
