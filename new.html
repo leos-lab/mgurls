@@ -29,23 +29,14 @@ https://manchestergents.com/onboarding
 
 $(function() {
 
-var loc = window.location.toString(),
-params = loc.split('&')[1],
-params2 = loc.split('&')[2],
-params3 = loc.split('&')[3],
-params4 = loc.split('&')[4],
-params5 = loc.split('&')[5],
-params6 = loc.split('&')[6],
-  iframe = document.getElementById('myIframe');
-alert(iframe.src); 
-iframe.src = iframe.src + '?' + params + '&' + params2 + '&' + params3 + '&' + params4+ '&' + params5;
-alert(iframe.src); 
+const iframe = document.getElementById('frame');
+iframe.src = iframe.src + window.location.search;​​​​​​​​​​​​​​​​
 
 });
 </script>
 <iframe 
 	style="display:block;position:absolute;top:0;left:0;margin:0;padding:0;width:100%;height:100%;border:0;"
-	id="myIframe" 
+	id="frame" 
 	src="https://tally.so/r/3N8RKN">
 	allowFullScreen="allowfullscreen" </iframe>
 
