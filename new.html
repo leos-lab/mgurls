@@ -22,17 +22,14 @@
          id="frameboxlive" 
          src="">
       allowFullScreen="allowfullscreen" </iframe>
-      <script>
-         var mainUrl = "https://tally.so/r/3N8RKN";
-         var urlParams = new URLSearchParams(window.location.search);
-         urlParams = urlParams.toString();
-         var ref = document.URL;
-         var clang = 'clang=' + document.location.pathname.split('/')[1];
-         
-         var iframeUrl = mainUrl + '&' + urlParams + '&' + urlParams + '&' + ref + '&' + clang;
-         
-         document.getElementsByTagName("iframe")[0].src = iframeUrl ;
-         
-      </script>
+  <script>
+  var mainUrl = "https://tally.so/r/3N8RKN"; // the-page-that-you-want-to-embed
+  var urlParams = new URLSearchParams(window.location.search);
+  urlParams = urlParams.toString();
+  var ref = document.URL;
+  var clang = 'clang=' + document.location.pathname.split('/')[1];
+  var iframeUrl = mainUrl + '?&' + urlParams;
+  document.getElementsByTagName("iframe")[0].src = iframeUrl ;
+ </script>
    </body>
 </html>
