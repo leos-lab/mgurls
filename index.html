@@ -1,68 +1,244 @@
-<html>
-   <head>
-      <meta name="viewport" content="width=device-width, height=device-height">
-      <title>
-         Manchester Gents
-      </title>
-      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-      <link rel="manifest" href="/site.webmanifest">
-      <!-- <meta name="robots" content="noindex">-->
-      <meta property="og:title" content="Manchester Gents" />
-      <meta name="twitter:card" content="summary_large_image">
-      <meta property="og:image" content="https://i.ibb.co/syBhYgH/Manchester-Gent-OG.png" />
-      <meta property="og:url" content="https://manchestergents.com/" />
-      <meta property="og:type" content="article">
-   </head>
-   <body style="width: 100%;-webkit-overflow-scrolling:touch;overflow:auto; ">
-      <iframe 
-         style="display:block;position:absolute;top:0;left:0;margin:0;padding:0;width:100%;height:100%;border:0;"
-         id="frameboxlive" 
-         src="">
-      allowFullScreen="allowfullscreen" </iframe>
-      <script>
-         var mainUrl = "https://home.manchestergents.com"; // the-page-that-you-want-to-embed
-         var urlParams = new URLSearchParams(window.location.search);
-         urlParams = urlParams.toString();
-         var ref = document.URL;
-         var clang = 'clang=' + document.location.pathname.split('/')[1];
-         var iframeUrl = mainUrl + '?&' + urlParams;
-         document.getElementsByTagName("iframe")[0].src = iframeUrl ;
-      </script>
-      <script type="text/javascript">function isIOS() {
-         return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-         }
-         function cloneDeviceMotionEvent(e) {
-         return {
-             acceleration: {
-                 x: e.acceleration.x,
-                 y: e.acceleration.y,
-                 z: e.acceleration.z,
-             },
-             accelerationIncludingGravity: {
-                 x: e.accelerationIncludingGravity.x,
-                 y: e.accelerationIncludingGravity.y,
-                 z: e.accelerationIncludingGravity.z,
-             },
-             rotationRate: {
-                 alpha: e.rotationRate.alpha,
-                 beta: e.rotationRate.beta,
-                 gamma: e.rotationRate.gamma,
-             },
-             interval: e.interval,
-             timeStamp: e.timeStamp
-         };
-         }
-         var iframe = document.getElementById('tree')
-         if (isIOS()) {
-         window.addEventListener('devicemotion', function (e) {
-             iframe.contentWindow.postMessage({
-                 type: 'devicemotion',
-                 deviceMotionEvent: cloneDeviceMotionEvent(e),
-             }, '*');
-         });
-         }
-      </script>
-   </body>
+<!DOCTYPE html>
+<html style="font-size: 16px" lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Our Next Meetup, 2 November, 2024​" />
+    <link rel="stylesheet" href="nicepage.css" media="screen" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="index.css" media="screen" />
+    <script
+      class="u-script"
+      type="text/javascript"
+      src="jquery-1.9.1.min.js"
+      defer=""
+    ></script>
+    <script
+      class="u-script"
+      type="text/javascript"
+      src="nicepage.js"
+      defer=""
+    ></script>
+    <meta name="generator" content="Nicepage 6.17.1, nicepage.com" />
+    <link rel="icon" href="images/favicon.png" />
+
+    <!-- HTML Meta Tags -->
+    <title>Manchester Gents</title>
+    <meta name="description" content="" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:url" content="http://manchestergents.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Manchester Gents" />
+    <meta property="og:description" content="" />
+    <meta
+      property="og:image"
+      content="https://i.ibb.co/syBhYgH/Manchester-Gent-OG.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="manchestergents.com" />
+    <meta property="twitter:url" content="http://manchestergents.com" />
+    <meta name="twitter:title" content="Manchester Gents" />
+    <meta name="twitter:description" content="" />
+    <meta
+      name="twitter:image"
+      content="https://i.ibb.co/syBhYgH/Manchester-Gent-OG.png"
+    />
+
+    <!-- Meta Tags Generated via https://opengraph.dev -->
+
+    <link
+      id="u-theme-google-font"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Manchester Gents",
+        "url": "/"
+      }
+    </script>
+    <meta name="theme-color" content="#478ac9" />
+    <link rel="canonical" href="/" />
+    <meta data-intl-tel-input-cdn-path="intlTelInput/" />
+  </head>
+  <body
+    data-home-page="https://website6340855.nicepage.io/Home.html?version=1f5b28b7-0e32-2d92-9352-a726c0d9c4aa"
+    data-home-page-title="Home"
+    data-path-to-root="./"
+    data-include-products="false"
+    class="u-body u-xl-mode"
+    data-lang="en"
+  >
+    <section
+      class="u-clearfix u-container-align-center u-custom-color-1 u-section-1"
+      id="sec-3d42"
+    >
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <img
+          class="u-image u-image-contain u-image-default u-image-1"
+          src="images/LargeLogo.png"
+          alt=""
+          data-image-width="680"
+          data-image-height="272"
+        />
+        <h1
+          class="u-align-center u-custom-font u-text u-text-default u-text-1"
+          spellcheck="false"
+          autocomplete="off"
+        >
+          Our Next Meetup<br />
+        </h1>
+        <h2
+          class="u-align-center u-custom-font u-text u-text-default u-text-2"
+          spellcheck="false"
+        >
+          18 Jan, 2025
+        </h2>
+        <h3
+          class="u-align-center u-custom-font u-text u-text-default u-text-3"
+          spellcheck="false"
+        >
+          Manchester, UK | <span style="font-size: 1.5rem">Venue TBC</span>
+        </h3>
+        <div
+          class="u-align-center u-countdown u-countdown-1"
+          data-timer-id="d7d5"
+          data-type="to-date"
+          data-target-date="Sat, 18 Jan 2025 19:00:00 GMT"
+          data-for="everyone"
+          data-direction="down"
+          data-target-number="100"
+          data-frequency="1s"
+          data-start-time="Mon, 25 Nov 2024 00:00:00 GMT"
+          data-time-left="750m"
+          data-after-count="none"
+          data-redirect-url="https://"
+        >
+          <div class="u-countdown-wrapper u-spacing-20">
+            <div
+              class="u-countdown-item u-countdown-years u-hidden u-spacing-10"
+            >
+              <div
+                class="u-countdown-counter u-custom-font u-countdown-counter-1"
+              >
+                <div class="u-countdown-number u-text-custom-color-2">0</div>
+                <div class="u-countdown-number u-hidden u-text-custom-color-2">
+                  0
+                </div>
+              </div>
+              <div class="u-countdown-label u-custom-font u-countdown-label-1">
+                Years
+              </div>
+            </div>
+            <div
+              class="u-countdown-separator u-custom-font u-hidden u-text-custom-color-2 u-countdown-separator-1"
+            >
+              :
+            </div>
+            <div class="u-countdown-days u-countdown-item u-spacing-10">
+              <div
+                class="u-countdown-counter u-custom-font u-countdown-counter-2"
+              >
+                <div class="u-countdown-number u-text-custom-color-2">5</div>
+                <div class="u-countdown-number u-text-custom-color-2">0</div>
+                <div class="u-countdown-number u-hidden u-text-custom-color-2">
+                  0
+                </div>
+              </div>
+              <div class="u-countdown-label u-custom-font u-countdown-label-2">
+                Days
+              </div>
+            </div>
+            <div
+              class="u-countdown-separator u-custom-font u-text-custom-color-2 u-countdown-separator-2"
+            >
+              :
+            </div>
+            <div class="u-countdown-hours u-countdown-item u-spacing-10">
+              <div
+                class="u-countdown-counter u-custom-font u-countdown-counter-3"
+              >
+                <div class="u-countdown-number u-text-custom-color-2">2</div>
+                <div class="u-countdown-number u-text-custom-color-2">3</div>
+              </div>
+              <div class="u-countdown-label u-custom-font u-countdown-label-3">
+                Hours
+              </div>
+            </div>
+            <div
+              class="u-countdown-separator u-custom-font u-text-custom-color-2 u-countdown-separator-3"
+            >
+              :
+            </div>
+            <div class="u-countdown-item u-countdown-minutes u-spacing-10">
+              <div
+                class="u-countdown-counter u-custom-font u-countdown-counter-4"
+              >
+                <div class="u-countdown-number u-text-custom-color-2">1</div>
+                <div class="u-countdown-number u-text-custom-color-2">1</div>
+              </div>
+              <div class="u-countdown-label u-custom-font u-countdown-label-4">
+                Minutes
+              </div>
+            </div>
+            <div
+              class="u-countdown-separator u-custom-font u-text-custom-color-2 u-countdown-separator-4"
+            >
+              :
+            </div>
+            <div class="u-countdown-item u-countdown-seconds u-spacing-10">
+              <div
+                class="u-countdown-counter u-custom-font u-countdown-counter-5"
+              >
+                <div class="u-countdown-number u-text-custom-color-2">2</div>
+                <div class="u-countdown-number u-text-custom-color-2">3</div>
+              </div>
+              <div class="u-countdown-label u-custom-font u-countdown-label-5">
+                Seconds
+              </div>
+            </div>
+            <div
+              class="u-countdown-separator u-custom-font u-hidden u-text-custom-color-2 u-countdown-separator-5"
+            >
+              :
+            </div>
+            <div
+              class="u-countdown-item u-countdown-numbers u-hidden u-spacing-10"
+            >
+              <div
+                class="u-countdown-counter u-custom-font u-countdown-counter-6"
+              >
+                <div class="u-countdown-number u-text-custom-color-2">0</div>
+                <div class="u-countdown-number u-text-custom-color-2">1</div>
+                <div class="u-countdown-number u-text-custom-color-2">0</div>
+                <div class="u-countdown-number u-text-custom-color-2">0</div>
+              </div>
+              <div class="u-countdown-label u-custom-font u-countdown-label-6">
+                Items
+              </div>
+            </div>
+          </div>
+          <div class="u-countdown-message u-hidden">
+            <p>Sorry, the time is up.</p>
+          </div>
+        </div>
+        <a
+          href="https://www.instagram.com/manchestergents/"
+          class="u-border-2 u-border-custom-color-2 u-border-hover-custom-color-2 u-btn u-btn-round u-button-style u-custom-font u-hover-custom-color-3 u-none u-radius u-btn-1"
+          >More Info</a
+        >
+      </div>
+    </section>
+  </body>
 </html>
